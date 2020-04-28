@@ -1,4 +1,4 @@
-### Project Topic
+### Competition Topic
 https://bigcontest.or.kr/points/content.php
 
 항공 운항 데이터를 활용한 "항공 지연 예측"
