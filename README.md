@@ -12,7 +12,7 @@ Bigdata Business Stastics Major
 1. Kim. Jinho 
 2. Kim. Taeuk
 3. Bae. yuna
-4. Jung. jaeyup
+4. Jeong. jaeyeob
 
 Current process (full)
 ----------------------
