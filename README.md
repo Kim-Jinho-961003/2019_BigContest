@@ -1,9 +1,10 @@
 ### Competition Topic
 https://bigcontest.or.kr/points/content.php
 
-항공 운항 데이터를 활용한 "항공 지연 예측"
-2016~2018년 간의 데이터를 통해 2019년 9월 16일 ~ 30일 간의 항공편별 지연 여부를 예측하는 항공지연 예측 모형 개발
-평가데이터 기반의 항공편별 지연여부 예측 정확도(roc_auc 사용)
+항공 운항 데이터를 활용한 "항공 지연 예측" futures league
+2016~2018년 간의 데이터를 통해 2019년 9월 16일 ~ 30일 간의 항공편별 지연 여부를 예측하는 항공지연 예측 모형 개발  
+평가데이터 기반의 항공편별 지연여부 예측 정확도
+평가지표 : roc_auc 
 
 ### Team Members
 Kookmin Univ 
@@ -23,5 +24,5 @@ train 데이터와 test 데이터의 형태가 다르기 때문에 train에서�
 범주형 변수가 많아 ~의 지연율이라는 수치적 대응을 통해 정보 손실을 줄임 (Groupby 변수 생성)
 4. Modeling :  
 지연의 경우가 현저히 적기 때문에 imbalance learning을 진행하고 다양한 모델에 대한 테스트 및 선택된 모델에 대한 파라미터 튜닝 진행. 
-5. Ensemble : 
+5. Ensemble :   
 soft_voting과 gmean을 통해 앙상블 진행
